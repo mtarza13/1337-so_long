@@ -40,7 +40,7 @@ For the graphics part of the project we used a library called ``minilibx``. It's
 
 ### Part 1: reading the map
 
-In this part of the code I checked that the given map was properly opened, that it had a ``.ber`` filetype, and then continued by reading the file one line at a time with [get_next_line](https://gitlab.com/madebypixel02/get_next_line).
+In this part of the code I checked that the given map was properly opened, that it had a ``.ber`` filetype, and then continued by reading the file one line at a time with [get_next_line](https://github.com/mtarza13/get_next_line).
 Once that was done I filled a struct ``t_lay`` with some basic map attributes like number of players, exits, collectibles, number of rows and columns, etc. During the reading process I also created a string containing the entire map, whcih was later useful when creating a matrix with ``ft_split`` with ``\n`` as the separator.
 
 
@@ -180,4 +180,5 @@ Throughout the project, there have been a few roadblocks that needed to be worke
 This has been my favorite project so far, coding my own pacman clone was so much fun, regargless how flawed it might be :)
 
 August 14th, 2021
+
 
